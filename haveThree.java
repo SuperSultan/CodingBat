@@ -1,6 +1,6 @@
 public boolean haveThree(int[] nums) {
   int count = 0;
-  if ( nums.length >= 1 && nums[0] == 3 )
+  if ( nums.length >= 1 && nums[0] == 3 ) // Need to check here because the 0th index is skipped in the for loop
     count++;
   
   for(int i=1; i<nums.length; ++i) {
